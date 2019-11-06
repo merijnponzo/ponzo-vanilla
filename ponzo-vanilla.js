@@ -16,6 +16,7 @@ export function removeClass(selector, remclass) {
     }
   }
 }
+//offset element
 export function getOffset(elem) {
   // crossbrowser version
   var box = elem.getBoundingClientRect()
